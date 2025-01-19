@@ -3,7 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+import SoccerTimer from './components/SoccerTimer'
+
 function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 p-4">
+      <SoccerTimer />
+    </div>
+  )
+}
+
+function AppFoo() {
   const [count, setCount] = useState(0)
 
   return (
